@@ -1,0 +1,51 @@
+.singlePosts{
+    width: 700px;
+margin: auto;
+justify-content: center;
+}
+
+/* .singlePostImage{
+    min-width: 50%;
+} */
+
+.singlePostImage{
+   width: 100vh;
+   height: 60vh;
+   border-radius: 10px;
+   object-fit: cover;
+}
+
+.singlePostTitle{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.singlePostEdit{
+    float: right;
+    font-size: 16px ;
+}
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singlePostDesc{
+    color: #666;
+    width: 100vh;
+    font-size: 18px;
+}
+
+.singlePostDesc::first-letter{
+   margin-left: 20px;
+   font-size: 30px;
+   font-weight: 600 ;
+}
+.not{
+    margin:  10% 40%;
+}

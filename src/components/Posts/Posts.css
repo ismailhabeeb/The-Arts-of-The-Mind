@@ -1,0 +1,10 @@
+.posts{
+    width: 45%;
+}
+@media (max-width: 767px) {
+
+    .posts{
+      width: 90%;
+    
+    }
+  }

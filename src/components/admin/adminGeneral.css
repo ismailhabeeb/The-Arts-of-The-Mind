@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box ;
+  }
+  /* HEADER */
+  #header{
+    background-color:  rgb(21, 56, 86) ;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    
+  }
+  .card{
+    width: 80%  ;
+  }
+  main{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .adminWrapper{
+    display: flex;
+    height: 93vh;
+
+}
+.adminWrapper .side-two{
+    flex: 8;
+    overflow-x: auto;
+  }
+   .side-bar{
+    flex: 2 ;
+    height: 100%;   
+    background-color: rgb(53, 108, 153);
+    
+  }
+  .adminWrapper .side-bar ul{
+    padding: 0px;
+  }
+  li{
+    margin: 0;
+  }
+  li :hover{
+    background-color: rgb(21, 56, 86);
+  } 
+   ul {
+    display: block;
+    border-bottom: 1px solid  rgb(21, 56, 86);
+  }
+  .content{
+    margin-top: 20px;
+  }
+
+ .admin-content{
+    flex: 8;
+    height: 100%;
+    padding: 40px 50px 50px;
+    align-items: center;
+    overflow-y: scroll;
+}
+.button-group{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.BTN {
+    background-color: rgb(21, 56, 86);
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.adminWrapper .page-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+th, td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid  rgb(21, 56, 86);
+}
+.editing{
+    text-decoration: none;
+}
+.editing:hover{
+    text-decoration: underline;
+}
+.edit{
+    color: green;
+}
+.delete{
+    color: red;
+}
+.publish{
+    color: blue;
+}
+
+/* WRITE */
+
+/* .writeFormGroup{
+
+} */
+#writeImg{
+    /* margin-top: 55px ;
+    width: 80%;
+    height: 400px;
+    border-radius: 1rem;
+    object-fit: cover; */
+    margin: auto;
+    width: 80%;
+    height: 380px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+.writeIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    color:rgb(21, 56, 86) ;
+}
+.writeInput{
+    font-size: 30px;
+    border: none;
+    /* padding: 20px; */
+    width: 90%;
+}
+.writeSubmit{
+    position: absolute;
+    /* margin-bottom: 50px; */
+    bottom: 20px;
+    right: 50px;
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.topic{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.topic label{
+    font-size: 28px;
+    color:rgb(21, 56, 86) ;
+    font-weight: 600;
+}
+.topic select{
+    width: 70%;
+    height: 30px;
+}
+@media (max-width: 850px) {
+    .adminWrapper{
+        flex-direction: column;
+        height: 110vh;
+    
+    }
+   
+      .adminWrapper .side-bar{
+        flex: none ;
+        height: 25%;   
+        
+      }
+      .adminWrapper .side-two{
+        flex: none;
+        width: 100%;
+        height:75%;
+      }
+      
+      #writeImg{
+        margin: auto;
+        width: 80%;
+        height: 400px;
+        border-radius: 5px;
+        border: solid 1px;
+      }
+      .button-group{
+        width: 100%;
+    }
+    
+  
+}
+
+.licon{
+  font-size: 50px;
+}
+
+/*Adminsidebar */
+.text{
+  text-decoration: none;
+  color: white;
+  background-color: none;
+}
+.activeText{
+  text-decoration: none;
+  color: white;
+  background-color: red;
+}

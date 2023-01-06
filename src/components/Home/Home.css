@@ -1,0 +1,58 @@
+.posterNav {
+  /* min-width: 100%; */
+  min-height: 55vh;
+  background: linear-gradient(to bottom, rgb(53, 108, 153) 50%,lightblue  100%);
+}
+
+
+.firstdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.barIcon {
+  color: white;
+  /* font-size: 25px; */
+}
+
+.login {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.dropdown-menu{
+    background-color: white;
+    width: 100px;
+}
+
+.pageTitle{
+    color: white;
+} 
+.icon{
+  color: white;
+  text-decoration: none;
+}
+
+.sideba{
+  width: 300px;
+  margin: 0 5px 0 5px;
+}
+
+@media (max-width:767px) {
+  .sideba{
+    display: none;
+    margin: 0;
+  
+  }
+  .mainDi{
+    width: 200px;
+  }
+  .posterNav {
+    min-height: 45vh;
+    background: linear-gradient(to bottom, rgb(53, 108, 153) 50%,lightblue  100%);
+  }
+}
+
+  

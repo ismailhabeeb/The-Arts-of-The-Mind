@@ -1,0 +1,129 @@
+ /* SideBarDATA */
+
+ .menu-bars{
+    margin-left: 1rem;
+    font-size: 2rem;
+    background-color: white;
+   }
+   /* .menu-bars{
+    
+    background-color: white;
+   } */
+
+   /* .menu-bars:hover{
+    color: white;
+   } */
+
+   .nav-menu{
+    background-color: white;
+    width: 350px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 100%;
+    z-index: 100;
+    transition: 1000ms;
+  
+   }
+
+   .nav-menu.active{
+    left: 0;
+    
+    transition: 350ms;
+    
+   }
+
+   .nav-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 50px;
+   }
+
+   .nav-text a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* padding: 0 16px; */
+    border-radius: 4px;
+   }
+   .nav-text a:hover {
+    /* background-color:  rgb(53, 108, 153);; */
+    /* color: rgb(53, 108, 153); */
+    color: white;
+    width: 200px;
+   }
+
+  .nav-menu-items{
+    width: 100%;
+  }
+  .navbar-toggle{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  span{
+    margin-left: 14px;
+  }
+
+  /* .home,
+  .profile,
+  .signup{
+    font-size: 3rem;
+    height: 90vh;
+  } */
+
+  .firstdiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+.loginside{
+  text-decoration: none;
+  color: white;
+}
+
+.loginside:hover{
+  color: white;
+}
+
+.logoutside{
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+.logoutside:hover{
+  color: white;
+}
+
+.icon:hover{
+  color: white;
+}
+.icon{
+  color: white;
+  /* margin: 5px; */
+}
+
+.topImage{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 5px;
+  
+
+}
